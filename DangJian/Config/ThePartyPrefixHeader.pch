@@ -1,0 +1,53 @@
+//
+//  ThePartyPrefixHeader.pch
+//  ThePartyBuild
+//
+//  Created by Sakya on 17/4/24.
+//  Copyright © 2017年 Sakya. All rights reserved.
+//
+
+#ifndef ThePartyPrefixHeader_pch
+#define ThePartyPrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+//工具
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <UIImageView+WebCache.h>
+#import "Chameleon.h"
+#import "UIControl+Custom.h"
+#import <Masonry.h>
+#import "MJRefresh.h"
+#import <IQKeyboardManager.h>
+#import "SKHUDManager.h"
+#import <MJExtension.h>
+#import "UINavigationController+Cloudox.h"
+#import "UIViewController+Cloudox.h"
+//配置文件
+#import "Config.h"
+#import "SKDefineConst.h"
+
+//环信
+#import "EaseUI.h"
+#import "ChatHelper.h"
+
+
+#import "Helper.h"
+#import "ThePartyHelper.h"
+#import "SKUIKit.h"
+#import "InterfaceManager.h"
+#import "DefineRULConst.h"
+
+//用户信息配置
+#import "UserInformationVo.h"
+#import "UserOperation.h"
+#import "UserManagemer.h"
+/**************************党务日历**************************/
+
+#import "TyunTool.h"
+#import "UIView+XMYExtension.h"
+/**************************end**************************/
+#endif
+
+#endif /* ThePartyPrefixHeader_pch */
