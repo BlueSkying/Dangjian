@@ -51,3 +51,10 @@
 #endif
 
 #endif /* ThePartyPrefixHeader_pch */
+
+#define kTitle @"ktitle"
+#define kSubTitle @"ksubtitle"
+#define kIdentifier @"kidentifier"
+#define kIsSelected @"kisselected"
+
+

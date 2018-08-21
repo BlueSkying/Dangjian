@@ -273,6 +273,7 @@
 		36CCD4FF1EC6A2C000F87E98 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CCD4FE1EC6A2BF00F87E98 /* AVFoundation.framework */; };
 		36CCD5011EC6A2CB00F87E98 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CCD5001EC6A2CB00F87E98 /* AudioToolbox.framework */; };
 		36CCD5031EC6A2D500F87E98 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CCD5021EC6A2D500F87E98 /* CoreMedia.framework */; };
+		65116863212C486500348DB3 /* MineQuestionVCN.m in Sources */ = {isa = PBXBuildFile; fileRef = 65116862212C486500348DB3 /* MineQuestionVCN.m */; };
 		8B9F54612005A92600264235 /* dayWorkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F54532005A92600264235 /* dayWorkCell.m */; };
 		8B9F54622005A92600264235 /* dayWorkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F54552005A92600264235 /* dayWorkModel.m */; };
 		8B9F54632005A92600264235 /* MYCalendarCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F54572005A92600264235 /* MYCalendarCollectionCell.m */; };
@@ -946,6 +947,8 @@
 		36CCD4FE1EC6A2BF00F87E98 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		36CCD5001EC6A2CB00F87E98 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		36CCD5021EC6A2D500F87E98 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		65116861212C486500348DB3 /* MineQuestionVCN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineQuestionVCN.h; sourceTree = "<group>"; };
+		65116862212C486500348DB3 /* MineQuestionVCN.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineQuestionVCN.m; sourceTree = "<group>"; };
 		8B9F54522005A92600264235 /* dayWorkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dayWorkCell.h; sourceTree = "<group>"; };
 		8B9F54532005A92600264235 /* dayWorkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dayWorkCell.m; sourceTree = "<group>"; };
 		8B9F54542005A92600264235 /* dayWorkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dayWorkModel.h; sourceTree = "<group>"; };
@@ -1351,6 +1354,7 @@
 		36CCD1511EC6A11000F87E98 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				65116860212C47D400348DB3 /* MineQuestion */,
 				36CCD1521EC6A11000F87E98 /* Announcements */,
 				36CCD1581EC6A11000F87E98 /* BaseClass */,
 				36CCD1671EC6A11000F87E98 /* Chat */,
@@ -3151,6 +3155,31 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		65116860212C47D400348DB3 /* MineQuestion */ = {
+			isa = PBXGroup;
+			children = (
+				65116865212C489D00348DB3 /* Views */,
+				65116864212C487700348DB3 /* Control */,
+			);
+			path = MineQuestion;
+			sourceTree = "<group>";
+		};
+		65116864212C487700348DB3 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				65116861212C486500348DB3 /* MineQuestionVCN.h */,
+				65116862212C486500348DB3 /* MineQuestionVCN.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		65116865212C489D00348DB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6C8C47EA967627FFDCDB73BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -3696,6 +3725,7 @@
 				36CCD43E1EC6A11100F87E98 /* SKScrollViewCell.m in Sources */,
 				8B9F54E92005AC1C00264235 /* UITextField+IndexPath.m in Sources */,
 				36CCD4E71EC6A11100F87E98 /* UIView+Layout.m in Sources */,
+				65116863212C486500348DB3 /* MineQuestionVCN.m in Sources */,
 				36CCD4771EC6A11100F87E98 /* EMAudioRecorderUtil.m in Sources */,
 				36CCD41C1EC6A11100F87E98 /* MainTabBarController.m in Sources */,
 				36CCD4241EC6A11100F87E98 /* NewsHomeModel.m in Sources */,
