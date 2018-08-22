@@ -274,6 +274,10 @@
 		36CCD5011EC6A2CB00F87E98 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CCD5001EC6A2CB00F87E98 /* AudioToolbox.framework */; };
 		36CCD5031EC6A2D500F87E98 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CCD5021EC6A2D500F87E98 /* CoreMedia.framework */; };
 		65116863212C486500348DB3 /* MineQuestionVCN.m in Sources */ = {isa = PBXBuildFile; fileRef = 65116862212C486500348DB3 /* MineQuestionVCN.m */; };
+		6537B8D7212D95CC00BBA393 /* ChooseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6537B8D6212D95CB00BBA393 /* ChooseCell.m */; };
+		6537B8DA212D964C00BBA393 /* TypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6537B8D9212D964C00BBA393 /* TypeCell.m */; };
+		6537B8DD212D97DA00BBA393 /* MyQuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6537B8DC212D97DA00BBA393 /* MyQuestionCell.m */; };
+		6537B8E0212DA60F00BBA393 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 6537B8DE212DA60F00BBA393 /* UIColor+expanded.m */; };
 		8B9F54612005A92600264235 /* dayWorkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F54532005A92600264235 /* dayWorkCell.m */; };
 		8B9F54622005A92600264235 /* dayWorkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F54552005A92600264235 /* dayWorkModel.m */; };
 		8B9F54632005A92600264235 /* MYCalendarCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F54572005A92600264235 /* MYCalendarCollectionCell.m */; };
@@ -949,6 +953,14 @@
 		36CCD5021EC6A2D500F87E98 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		65116861212C486500348DB3 /* MineQuestionVCN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineQuestionVCN.h; sourceTree = "<group>"; };
 		65116862212C486500348DB3 /* MineQuestionVCN.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineQuestionVCN.m; sourceTree = "<group>"; };
+		6537B8D5212D95CB00BBA393 /* ChooseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseCell.h; sourceTree = "<group>"; };
+		6537B8D6212D95CB00BBA393 /* ChooseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseCell.m; sourceTree = "<group>"; };
+		6537B8D8212D964B00BBA393 /* TypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeCell.h; sourceTree = "<group>"; };
+		6537B8D9212D964C00BBA393 /* TypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeCell.m; sourceTree = "<group>"; };
+		6537B8DB212D97DA00BBA393 /* MyQuestionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyQuestionCell.h; sourceTree = "<group>"; };
+		6537B8DC212D97DA00BBA393 /* MyQuestionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyQuestionCell.m; sourceTree = "<group>"; };
+		6537B8DE212DA60F00BBA393 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		6537B8DF212DA60F00BBA393 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
 		8B9F54522005A92600264235 /* dayWorkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dayWorkCell.h; sourceTree = "<group>"; };
 		8B9F54532005A92600264235 /* dayWorkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dayWorkCell.m; sourceTree = "<group>"; };
 		8B9F54542005A92600264235 /* dayWorkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dayWorkModel.h; sourceTree = "<group>"; };
@@ -2239,6 +2251,8 @@
 		36CCD2551EC6A11000F87E98 /* ThePartyHelper */ = {
 			isa = PBXGroup;
 			children = (
+				6537B8DF212DA60F00BBA393 /* UIColor+expanded.h */,
+				6537B8DE212DA60F00BBA393 /* UIColor+expanded.m */,
 				36CCD2561EC6A11000F87E98 /* ThePartyHelper.h */,
 				36CCD2571EC6A11000F87E98 /* ThePartyHelper.m */,
 			);
@@ -3176,6 +3190,12 @@
 		65116865212C489D00348DB3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6537B8D8212D964B00BBA393 /* TypeCell.h */,
+				6537B8D9212D964C00BBA393 /* TypeCell.m */,
+				6537B8D5212D95CB00BBA393 /* ChooseCell.h */,
+				6537B8D6212D95CB00BBA393 /* ChooseCell.m */,
+				6537B8DB212D97DA00BBA393 /* MyQuestionCell.h */,
+				6537B8DC212D97DA00BBA393 /* MyQuestionCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -3742,12 +3762,14 @@
 				36CCD45F1EC6A11100F87E98 /* SKSegmentedView.m in Sources */,
 				36CCD44E1EC6A11100F87E98 /* UserOperation.m in Sources */,
 				8B9F547F2005AA2100264235 /* TemplateAction.m in Sources */,
+				6537B8DD212D97DA00BBA393 /* MyQuestionCell.m in Sources */,
 				36CCD4681EC6A11100F87E98 /* Chameleon_.m in Sources */,
 				8B9F54F72005ACB400264235 /* PayManager.m in Sources */,
 				36CCD4891EC6A11100F87E98 /* MWTapDetectingImageView.m in Sources */,
 				8B9F55BC2005C04900264235 /* NSDataEx.m in Sources */,
 				36CCD4AB1EC6A11100F87E98 /* EaseSDKHelper.m in Sources */,
 				36CCD40E1EC6A11100F87E98 /* UserInformationVo.m in Sources */,
+				6537B8DA212D964C00BBA393 /* TypeCell.m in Sources */,
 				8B9F55B82005C04900264235 /* base64.m in Sources */,
 				8B9F554F2005BDC700264235 /* CalendarDetailViewController.m in Sources */,
 				36CCD4BF1EC6A11100F87E98 /* EaseRefreshTableViewController.m in Sources */,
@@ -3758,6 +3780,7 @@
 				36CCD43D1EC6A11100F87E98 /* PublickTextViewCell.m in Sources */,
 				36CCD48C1EC6A11100F87E98 /* DACircularProgressView.m in Sources */,
 				36CCD4751EC6A11100F87E98 /* EaseUI.m in Sources */,
+				6537B8E0212DA60F00BBA393 /* UIColor+expanded.m in Sources */,
 				36CCD3F61EC6A11100F87E98 /* BaseModel.m in Sources */,
 				36CCD4281EC6A11100F87E98 /* NewsSingleImageOptionCell.m in Sources */,
 				8B9F54BF2005AAFB00264235 /* OrganizationJobFeedbackUploadPictureCell.m in Sources */,
@@ -3973,6 +3996,7 @@
 				36CCD4CE1EC6A11100F87E98 /* EaseBubbleView.m in Sources */,
 				36CCD4551EC6A11100F87E98 /* SKAreaPickerView.m in Sources */,
 				36CCD4661EC6A11100F87E98 /* UIImage+CornerRadius.m in Sources */,
+				6537B8D7212D95CC00BBA393 /* ChooseCell.m in Sources */,
 				36CCD3FF1EC6A11100F87E98 /* HeartTalkListViewController.m in Sources */,
 				36CCD4E81EC6A11100F87E98 /* main.m in Sources */,
 				36CCD4391EC6A11100F87E98 /* PublickNewsListCell.m in Sources */,

@@ -52,6 +52,10 @@
 
 #endif /* ThePartyPrefixHeader_pch */
 
+//检查数组下标获取数组对象 无效下标返回nil
+#define safeGetArrayObject(array, index)    \
+index<[array count]?[array objectAtIndex:index]:nil; \
+
 #define kTitle @"ktitle"
 #define kSubTitle @"ksubtitle"
 #define kIdentifier @"kidentifier"
